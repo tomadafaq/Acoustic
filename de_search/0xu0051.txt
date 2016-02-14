@@ -1,0 +1,4 @@
+Q; 14;
+QUE; 21,20;
+QUIEBRA; 22;
+QUIERO; 23;

@@ -1,0 +1,161 @@
+.detbl
+{
+direction:ltr; border-spacing:0px;
+border-collapse: collapse;
+border: 0px none black;
+}
+.de_list
+{
+margin: 0;padding: 0;
+}
+div.p
+{
+margin-top:0px;
+margin-bottom:0px;
+font-weight:normal;
+}
+
+div.description_on_page div.p
+{font-family:"Verdana";
+font-size: 10pt;color:#000000;
+font-style:normal;
+text-decoration:none;
+font-weight:normal;
+}
+div.description_on_page div.p a
+{font-family:"Verdana";
+font-size: 10pt;color:#000000;
+font-style:normal;
+text-decoration:none;
+font-weight:normal;
+}
+h1
+{
+font-family:"Arial";
+font-size: 16pt;color:#7f7f7f;
+font-style:normal;
+text-decoration:none;
+font-weight:normal;
+display:inline;
+margin:0;
+padding:0;
+}
+h2
+{
+font-family:"Arial";
+font-size: 11pt;color:#4f87fd;
+font-style:normal;
+text-decoration:none;
+font-weight:normal;
+display:inline;
+margin:0;
+padding:0;
+}
+span.code
+{
+font-family:"Courier New";
+font-size: 11pt;color:#000000;
+font-style:normal;
+text-decoration:none;
+font-weight:normal;
+}
+span.quote
+{
+font-family:"Georgia";
+font-size: 11pt;color:#000000;
+font-style:italic;
+text-decoration:none;
+font-weight:normal;
+}
+span.New_normal
+{
+font-family:"Verdana";
+font-size: 10pt;color:#007fbf;
+font-style:normal;
+text-decoration:none;
+font-weight:normal;
+}
+span.de_2471C8BA66
+{
+	color:#007fbf;
+}
+span.de_2641A9D524
+{
+	font-family: "Verdana";
+	font-size: 12pt;
+	color:#000000;
+}
+span.de_289E3A8E03
+{
+	color:#37c83e;
+}
+span.de_34F0647984
+{
+	color:#7f7f7f;
+}
+span.de_3CF7D165FD
+{
+	color:#7f7f7f;
+	font-style:italic;
+	text-decoration:underline;
+}
+span.de_5D25B0B4EF
+{
+	font-family: "Verdana";
+	font-size: 10pt;
+	color:#000000;
+}
+span.de_5F2C7D8E9F
+{
+	font-family: "Verdana";
+	font-size: 10pt;
+	color:#007fbf;
+}
+span.de_5FB625965B
+{
+	font-family: "Arial";
+	font-size: 9pt;
+	color:#000000;
+}
+span.de_6099C23706
+{
+	font-size: 48pt;
+	color:#ffa800;
+}
+span.de_C63EDFFF30
+{
+	color:#49b64e;
+}
+span.de_C6982FFCDE
+{
+	color:#bfbfbf;
+}
+span.de_CA184C2B4B
+{
+	font-family: "Courier New";
+	font-size: 9pt;
+	color:#000000;
+}
+span.de_D346FBB7A4
+{
+	font-family: "Verdana";
+	font-size: 10pt;
+	color:#7f7f7f;
+	font-style:italic;
+	text-decoration:underline;
+}
+span.de_F5BE6575F8
+{
+	font-family: "Verdana";
+	font-size: 12pt;
+	color:#00b050;
+}
+span.de_F6FDE9E033
+{
+	font-family: "Verdana";
+	font-size: 10pt;
+	color:#999999;
+}
+.list-element {
+	list-style-type: none;
+}
