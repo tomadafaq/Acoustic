@@ -47,47 +47,50 @@
  2.4. The Toyes ... Advanced License is required!
  module_3_4.htm
 17
- 2.5. Frank Sin... Advanced License is required!
+ 2.5. Frank Si... Advanced License is required!
  module_3_5.htm
 18
- 2.6. The Beatles – Somet... Advanced License is required!
+ 2.6. Frank Sinatra – ... Advanced License is required!
  module_3_6.htm
 19
+ 2.7. The Beatles – Somet... Advanced License is required!
+ module_3_7.htm
+20
  3. English so... Advanced License is required!
  module_4.htm
-20
+21
  3.1. Manu Chao –... Advanced License is required!
  module_4_1.htm
-21
+22
  3.2. Manu Chao –... Advanced License is required!
  module_4_2.htm
-22
+23
  3.3. Manu Chao... Advanced License is required!
  module_4_3.htm
-23
+24
  3.4. Manu Ch... Advanced License is required!
  module_4_4.htm
-24
+25
  3.5. Paul McCartney ... Advanced License is required!
  module_4_5.htm
-25
+26
  4. ... Advanced License is required!
  module_5.htm
-26
+27
  4.1. Кога за... Advanced License is required!
  module_5_1.htm
-27
+28
  5. V... Advanced License is required!
  module_6.htm
-28
+29
  5.1. Киора – В... Advanced License is required!
  module_6_1.htm
-29
+30
  5.2. Мони и Домч... Advanced License is required!
  module_6_2.htm
-30
+31
  5.3. БТР – ... Advanced License is required!
  module_6_3.htm
-31
+32
  5.4. БТР ... Advanced License is required!
  module_6_4.htm
