@@ -1,5 +1,5 @@
 1
- Ti... Advanced License is required!
+ Acoustic guita... Advanced License is required!
  index.htm
 2
  1. Bulgar... Advanced License is required!
@@ -35,7 +35,7 @@
  2. English so... Advanced License is required!
  module_3.htm
 13
- 2.1. Hello – ... Advanced License is required!
+ 2.1. Lionel R... Advanced License is required!
  module_3_1.htm
 14
  2.2. Elvis – Are Y... Advanced License is required!
@@ -56,41 +56,50 @@
  2.7. The Beatles – Somet... Advanced License is required!
  module_3_7.htm
 20
+ 2.8. The Beat... Advanced License is required!
+ module_3_8.htm
+21
+ 2.9. Willie Nelson... Advanced License is required!
+ module_3_9.htm
+22
  3. English so... Advanced License is required!
  module_4.htm
-21
- 3.1. Manu Chao –... Advanced License is required!
- module_4_1.htm
-22
- 3.2. Manu Chao –... Advanced License is required!
- module_4_2.htm
 23
- 3.3. Manu Chao... Advanced License is required!
- module_4_3.htm
+ 3.1. Paul McCartney ... Advanced License is required!
+ module_4_1.htm
 24
- 3.4. Manu Ch... Advanced License is required!
- module_4_4.htm
-25
- 3.5. Paul McCartney ... Advanced License is required!
- module_4_5.htm
-26
- 4. ... Advanced License is required!
+ 4. Spani... Advanced License is required!
  module_5.htm
-27
- 4.1. Кога за... Advanced License is required!
+25
+ 4.1. Manu Chao –... Advanced License is required!
  module_5_1.htm
+26
+ 4.2. Manu Chao –... Advanced License is required!
+ module_5_2.htm
+27
+ 4.3. Manu Chao... Advanced License is required!
+ module_5_3.htm
 28
- 5. V... Advanced License is required!
- module_6.htm
+ 4.4. Manu Ch... Advanced License is required!
+ module_5_4.htm
 29
- 5.1. Киора – В... Advanced License is required!
- module_6_1.htm
+ 5. Bulga... Advanced License is required!
+ module_6.htm
 30
- 5.2. Мони и Домч... Advanced License is required!
- module_6_2.htm
+ 5.1. Кога за... Advanced License is required!
+ module_6_1.htm
 31
- 5.3. БТР – ... Advanced License is required!
- module_6_3.htm
+ 6. Bulgarian Vu... Advanced License is required!
+ module_7.htm
 32
- 5.4. БТР ... Advanced License is required!
- module_6_4.htm
+ 6.1. Киора – В... Advanced License is required!
+ module_7_1.htm
+33
+ 6.2. Мони и Домч... Advanced License is required!
+ module_7_2.htm
+34
+ 6.3. БТР – ... Advanced License is required!
+ module_7_3.htm
+35
+ 6.4. БТР ... Advanced License is required!
+ module_7_4.htm
