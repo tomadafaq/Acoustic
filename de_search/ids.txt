@@ -89,17 +89,20 @@
  5.1. Кога за... Advanced License is required!
  module_6_1.htm
 31
+ 5.2 Priv... Advanced License is required!
+ module_6_2.htm
+32
  6. Bulgarian Vu... Advanced License is required!
  module_7.htm
-32
+33
  6.1. Киора – В... Advanced License is required!
  module_7_1.htm
-33
+34
  6.2. Мони и Домч... Advanced License is required!
  module_7_2.htm
-34
+35
  6.3. БТР – ... Advanced License is required!
  module_7_3.htm
-35
+36
  6.4. БТР ... Advanced License is required!
  module_7_4.htm

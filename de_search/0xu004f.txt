@@ -18,4 +18,4 @@ OUT; 18,17;
 OUTSIDE; 13;
 OVER; 15;
 OVERFLOW; 13;
-OГА; 34;
+OГА; 35;

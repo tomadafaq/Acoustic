@@ -89,15 +89,18 @@ span.de_289E3A8E03
 {
 	color:#37c83e;
 }
-span.de_34F0647984
-{
-	color:#7f7f7f;
-}
 span.de_3CF7D165FD
 {
 	color:#7f7f7f;
 	font-style:italic;
 	text-decoration:underline;
+}
+span.de_56E0215132
+{
+	font-family: "Verdana";
+	font-size: 10pt;
+	color:#bfbfbf;
+	font-style:italic;
 }
 span.de_5D25B0B4EF
 {
@@ -121,6 +124,10 @@ span.de_6099C23706
 {
 	font-size: 48pt;
 	color:#ffa800;
+}
+span.de_823826CA2C
+{
+	font-style:italic;
 }
 span.de_C63EDFFF30
 {
