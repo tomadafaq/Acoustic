@@ -95,20 +95,17 @@
  5.1. Кога зашумят шумите
  module_6_1.htm
 33
- 5.2 Private Pepi
- module_6_2.htm
-34
  6. Bulgarian Vulgar Drunk Songs
  module_7.htm
-35
+34
  6.1. Киора – Вкарвам го в теб
  module_7_1.htm
-36
+35
  6.2. Мони и Домчил – Уморени мъда
  module_7_2.htm
-37
+36
  6.3. БТР – Мас и масло
  module_7_3.htm
-38
+37
  6.4. БТР – Спасение
  module_7_4.htm
