@@ -1,108 +1,114 @@
 1
- Acoustic guita... Advanced License is required!
+ Acoustic guitar tabs by Toma
  index.htm
 2
- 1. Bulgar... Advanced License is required!
+ 1. Bulgarian songs
  module_2.htm
 3
- 1.1. Щурци... Advanced License is required!
+ 1.1. Щурците – Среща
  module_2_1.htm
 4
- 1.2. Щурци... Advanced License is required!
+ 1.2. Щурците – Хамлет
  module_2_2.htm
 5
- 1.3. Щурци... Advanced License is required!
+ 1.3. Щурците – Клетва
  module_2_3.htm
 6
- 1.4. Диана Ек... Advanced License is required!
+ 1.4. Диана Експрес – Сутрин
  module_2_4.htm
 7
- 1.5. Диана Ек... Advanced License is required!
+ 1.5. Диана Експрес – Синева
  module_2_5.htm
 8
- 1.6. Диана Е... Advanced License is required!
+ 1.6. Диана Експрес – Душа
  module_2_6.htm
 9
- 1.7. Тоника... Advanced License is required!
+ 1.7. Тоника – Приятели
  module_2_7.htm
 10
- 1.8. Хиподил... Advanced License is required!
+ 1.8. Хиподил – Бате Гойко
  module_2_8.htm
 11
- 1.9. Васил Найдено... Advanced License is required!
+ 1.9. Васил Найденов – По Първи петли
  module_2_9.htm
 12
- 2. English so... Advanced License is required!
+ 2. English songs - pre 90s
  module_3.htm
 13
- 2.1. Lionel R... Advanced License is required!
+ 2.1. Lionel Richie - Hello
  module_3_1.htm
 14
- 2.2. Elvis – Are Y... Advanced License is required!
+ 2.2. Elvis – Are You Lonesome Tonight
  module_3_2.htm
 15
- 2.3. The Pogues ... Advanced License is required!
+ 2.3. Elvis - His Latest Flame
  module_3_3.htm
 16
- 2.4. The Toyes ... Advanced License is required!
+ 2.4. The Pogues – Dirty Old Town
  module_3_4.htm
 17
- 2.5. Frank Si... Advanced License is required!
+ 2.5. The Toyes – Smoke 2 Joints
  module_3_5.htm
 18
- 2.6. Frank Sinatra – ... Advanced License is required!
+ 2.6. Frank Sinatra – My Way
  module_3_6.htm
 19
- 2.7. The Beatles – Somet... Advanced License is required!
+ 2.7. Frank Sinatra – Strangers in the night
  module_3_7.htm
 20
- 2.8. The Beat... Advanced License is required!
+ 2.8. The Beatles – Something in the way she moves
  module_3_8.htm
 21
- 2.9. Willie Nelson... Advanced License is required!
+ 2.9. The Beatles – Michelle
  module_3_9.htm
 22
- 3. English so... Advanced License is required!
- module_4.htm
+ 2.10. Willie Nelson - Golden Earrings
+ module_3_10.htm
 23
- 3.1. Paul McCartney ... Advanced License is required!
- module_4_1.htm
+ 2.11. Jimmy Sommerville - To Love Somebody
+ module_3_11.htm
 24
- 4. Spani... Advanced License is required!
- module_5.htm
+ 3. English songs - post 90s
+ module_4.htm
 25
- 4.1. Manu Chao –... Advanced License is required!
- module_5_1.htm
+ 3.1. Paul McCartney – Hope Of Deliverance
+ module_4_1.htm
 26
- 4.2. Manu Chao –... Advanced License is required!
- module_5_2.htm
+ 4. Spanish songs
+ module_5.htm
 27
- 4.3. Manu Chao... Advanced License is required!
- module_5_3.htm
+ 4.1. Manu Chao – Me Llaman Calle
+ module_5_1.htm
 28
- 4.4. Manu Ch... Advanced License is required!
- module_5_4.htm
+ 4.2. Manu Chao – La vida tombola
+ module_5_2.htm
 29
- 5. Bulga... Advanced License is required!
- module_6.htm
+ 4.3. Manu Chao – Clandestino
+ module_5_3.htm
 30
- 5.1. Кога за... Advanced License is required!
- module_6_1.htm
+ 4.4. Manu Chao – Libertad
+ module_5_4.htm
 31
- 5.2 Priv... Advanced License is required!
- module_6_2.htm
+ 5. Bulgarian Folk
+ module_6.htm
 32
- 6. Bulgarian Vu... Advanced License is required!
- module_7.htm
+ 5.1. Кога зашумят шумите
+ module_6_1.htm
 33
- 6.1. Киора – В... Advanced License is required!
- module_7_1.htm
+ 5.2 Private Pepi
+ module_6_2.htm
 34
- 6.2. Мони и Домч... Advanced License is required!
- module_7_2.htm
+ 6. Bulgarian Vulgar Drunk Songs
+ module_7.htm
 35
- 6.3. БТР – ... Advanced License is required!
- module_7_3.htm
+ 6.1. Киора – Вкарвам го в теб
+ module_7_1.htm
 36
- 6.4. БТР ... Advanced License is required!
+ 6.2. Мони и Домчил – Уморени мъда
+ module_7_2.htm
+37
+ 6.3. БТР – Мас и масло
+ module_7_3.htm
+38
+ 6.4. БТР – Спасение
  module_7_4.htm

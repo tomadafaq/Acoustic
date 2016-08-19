@@ -15,15 +15,18 @@ margin-bottom:0px;
 font-weight:normal;
 }
 
-div.description_on_page div.p
-{font-family:"Verdana";
-font-size: 10pt;color:#000000;
-font-style:normal;
-text-decoration:none;
-font-weight:normal;
-}
-div.description_on_page div.p a
-{font-family:"Verdana";
+div.description_on_page div.p,
+ div.description_on_page div.p a,
+ .m-pageContent__side__header div.p,
+ .m-pageContent__side__header div.p a,
+ .m-pageContent__side__footer div.p,
+ .m-pageContent__side__footer div.p a,
+ .m-pageContent__side__right div.p,
+ .m-pageContent__side__right div.p a,
+ .m-pageContent__side__left div.p,
+ .m-pageContent__side__left div.p a
+{
+font-family:"Verdana";
 font-size: 10pt;color:#000000;
 font-style:normal;
 text-decoration:none;

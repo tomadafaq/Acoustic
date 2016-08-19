@@ -1002,7 +1002,7 @@ DR_EXPLAIN.searchEngine = (function() {
         if (request.readyState != 4) return;
         if (request.status != 200 && request.status != 0)  return;
 
-        var arrFileStrings  = (request.responseText).split(/\s*;\s*/);
+        var arrFileStrings  = (request.responseText).split(/\s*\r\n\s*/);
         var stToSearch      = StringPairArray[iStringToSearch][0];
 
         var isFirstIteration = true;
@@ -1138,7 +1138,7 @@ DR_EXPLAIN.searchEngine = (function() {
             if (request.readyState == 4)
                 if(request.status == 200 || request.status == 0)
                 {
-                    var arPrefixes = (request.responseText).split(/\s*;\s*/);
+                    var arPrefixes = (request.responseText).split(/\s*\r\n\s*/);
                     var j = 0;
                     for (var i = 0; i + 2 < arPrefixes.length; i+=3)
                     {
