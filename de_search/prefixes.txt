@@ -3,7 +3,7 @@
  011200
 0xu0031
  1
- 11
+ 12
 0xu0032
  2
  2X
@@ -39,7 +39,7 @@
  CVIDA
 0xu0044
  D
- DVENDRÁ
+ DÍA
 0xu0045
  E
  EYES
@@ -59,11 +59,11 @@
  JIMMY
  JUST
 0xu004b
- KEPT
+ KEEP
  KNOWS
 0xu004c
  LA
- LYING
+ LUGAR
 0xu004d
  M
  MÁS
@@ -77,7 +77,7 @@
  PA
  PUERTA
 0xu0051
- Q
+ QUE
  QUIERO
 0xu0052
  RATHER
@@ -87,7 +87,7 @@
  SWORE
 0xu0054
  T
- TWO
+ TÓMBOLA
 0xu0055
  UN
  USE
@@ -103,6 +103,9 @@
 0xu0059
  Y
  YOUR
+0xu00c9
+ ÉL
+ ÉL
 0xu0410
  А
  АХ

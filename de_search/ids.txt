@@ -41,71 +41,77 @@
  2.2. Elvis – Are You Lonesome Tonight
  module_3_2.htm
 15
- 2.3. Elvis - His Latest Flame
+ 2.3. Elvis - Fool such as I 
  module_3_3.htm
 16
- 2.4. The Pogues – Dirty Old Town
+ 2.4. Elvis - His Latest Flame
  module_3_4.htm
 17
- 2.5. The Toyes – Smoke 2 Joints
+ 2.5. The Pogues – Dirty Old Town
  module_3_5.htm
 18
- 2.6. Frank Sinatra – My Way
+ 2.6. The Toyes – Smoke 2 Joints
  module_3_6.htm
 19
- 2.7. Frank Sinatra – Strangers in the night
+ 2.7. Frank Sinatra – My Way
  module_3_7.htm
 20
- 2.8. The Beatles – Something in the way she moves
+ 2.8. Frank Sinatra – Strangers in the night
  module_3_8.htm
 21
- 2.9. The Beatles – Michelle
+ 2.9. The Beatles – Something in the way she moves
  module_3_9.htm
 22
- 2.10. Willie Nelson - Golden Earrings
+ 2.10. The Beatles – Michelle
  module_3_10.htm
 23
- 2.11. Jimmy Sommerville - To Love Somebody
+ 2.11. Willie Nelson - Golden Earrings
  module_3_11.htm
 24
+ 2.12. Jimmy Sommerville - To Love Somebody
+ module_3_12.htm
+25
  3. English songs - post 90s
  module_4.htm
-25
+26
  3.1. Paul McCartney – Hope Of Deliverance
  module_4_1.htm
-26
+27
+ 3.2. Calum Scott - Dancing on my own
+ module_4_2.htm
+28
  4. Spanish songs
  module_5.htm
-27
+29
  4.1. Manu Chao – Me Llaman Calle
  module_5_1.htm
-28
+30
  4.2. Manu Chao – La vida tombola
  module_5_2.htm
-29
+31
  4.3. Manu Chao – Clandestino
  module_5_3.htm
-30
+32
  4.4. Manu Chao – Libertad
  module_5_4.htm
-31
+33
  5. Bulgarian Folk
  module_6.htm
-32
+34
  5.1. Кога зашумят шумите
  module_6_1.htm
-33
+35
  6. Bulgarian Vulgar Drunk Songs
  module_7.htm
-34
+36
  6.1. Киора – Вкарвам го в теб
  module_7_1.htm
-35
+37
  6.2. Мони и Домчил – Уморени мъда
  module_7_2.htm
-36
+38
  6.3. БТР – Мас и масло
  module_7_3.htm
-37
+39
  6.4. БТР – Спасение
  module_7_4.htm

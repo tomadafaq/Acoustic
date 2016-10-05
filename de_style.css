@@ -64,10 +64,10 @@ font-weight:normal;
 }
 span.quote
 {
-font-family:"Georgia";
-font-size: 11pt;color:#000000;
+font-family:"Verdana";
+font-size: 10pt;color:#7f7f7f;
 font-style:italic;
-text-decoration:none;
+text-decoration:underline;
 font-weight:normal;
 }
 span.New_normal
@@ -96,6 +96,10 @@ span.de_3CF7D165FD
 {
 	color:#7f7f7f;
 	font-style:italic;
+	text-decoration:underline;
+}
+span.de_476D3D315E
+{
 	text-decoration:underline;
 }
 span.de_56E0215132
@@ -131,10 +135,6 @@ span.de_6099C23706
 span.de_823826CA2C
 {
 	font-style:italic;
-}
-span.de_C63EDFFF30
-{
-	color:#49b64e;
 }
 span.de_C6982FFCDE
 {
