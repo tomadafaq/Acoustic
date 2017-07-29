@@ -394,133 +394,6 @@ DR_EXPLAIN.namespace = function( ns_string ) {
     });
 
 
-    window.NavTree__ItemDecoration_View = 
-    {
-        html_root: '<span class="b-tree__spacer"></span>',
-        html_expander_doClose: '<span class="b-tree__i_expander_doClose"><img class="b-tree__i_expander_doClose_inner" alt="–" title="" src="i/null.gif" /></span>',
-        html_expander_doOpen: '<span class="b-tree__i_expander_doOpen"><img class="b-tree__i_expander_doOpen_inner" alt="+" title="" src="i/null.gif" /></span>',
-        html_angle_tl: '<span class="b-tree__i_angle_tl"><span class="b-tree__i_angle_tl_inner"></span></span>',
-        html_angle_bl: '<span class="b-tree__i_angle_bl"><span class="b-tree__i_angle_bl_inner"></span></span>',
-        html_folder_opened: '<span class="b-tree__i_folder_opened"><span class="b-tree__i_folder_opened_inner"></span></span>',
-        html_folder_opened_line_t: '<span class="b-tree__i_vLine_t_folder_opened"><span class="b-tree__i_vLine_t_folder_opened_inner"></span></span>',
-        html_folder_opened_line_b: '<span class="b-tree__i_vLine_b_folder_opened"><span class="b-tree__i_vLine_b_folder_opened_inner"></span></span>',
-        html_folder_closed: '<span class="b-tree__i_folder_closed"><span class="b-tree__i_folder_closed_inner"></span></span>',
-        html_article: '<span class="b-tree__i_article"><span class="b-tree__i_article_inner"></span></span>',
-        html_vLine_tb: '<span class="b-tree__i_vLine_tb"><span class="b-tree__i_vLine_tb_inner"></span></span>',
-        html_hLine_mr: '<span class="b-tree__i_hLine_mr"><span class="b-tree__i_hLine_mr_inner"></span></span>',
-
-        html_article_icon_cached: '<span class="b-tree__spacer"><span class="b-tree__i_article"><span class="b-tree__i_article_inner"></span></span></span>',
-        
-        html_render_childs_isVLineTB_cached: '<span class="b-tree__spacer"><span class="b-tree__i_vLine_tb"><span class="b-tree__i_vLine_tb_inner"></span></span></span>',
-        html_folder_icon_cached: '<span class="b-tree__spacer"><span class="b-tree__i_folder_opened"><span class="b-tree__i_folder_opened_inner"></span></span><span class="b-tree__i_vLine_b_folder_opened"><span class="b-tree__i_vLine_b_folder_opened_inner"></span></span></span>',
-        html_render_article_line_bl_cached: '<span class="b-tree__spacer"><span class="b-tree__i_angle_bl"><span class="b-tree__i_angle_bl_inner"></span></span></span>',
-        html_render_article_line_tl_cached: '<span class="b-tree__spacer"><span class="b-tree__i_angle_tl"><span class="b-tree__i_angle_tl_inner"></span></span></span>',
-        html_render_article_line_tl_tb_cached: '<span class="b-tree__spacer"><span class="b-tree__i_angle_tl"><span class="b-tree__i_angle_tl_inner"></span></span><span class="b-tree__i_vLine_tb"><span class="b-tree__i_vLine_tb_inner"></span></span></span>',
-        html_render_folder_expander_angle_tl_cached: '<span class="b-tree__spacer"><span class="b-tree__i_angle_tl"><span class="b-tree__i_angle_tl_inner"></span></span><span class="b-tree__i_expander_doClose"><img class="b-tree__i_expander_doClose_inner" alt="-" title="" src="i/null.gif" /></span></span>',
-        html_render_folder_expander_hline_mr_cached: '<span class="b-tree__spacer"><span class="b-tree__i_hLine_mr"><span class="b-tree__i_hLine_mr_inner"></span></span><span class="b-tree__i_expander_doClose"><img class="b-tree__i_expander_doClose_inner" alt="-" title="" src="i/null.gif" /></span></span>',
-        html_render_folder_expander_angle_bl_cached: '<span class="b-tree__spacer"><span class="b-tree__i_angle_bl"><span class="b-tree__i_angle_bl_inner"></span></span><span class="b-tree__i_expander_doClose"><img class="b-tree__i_expander_doClose_inner" alt="-" title="" src="i/null.gif" /></span></span>',
-        html_render_folder_expander_angle_tl_tb_cached: '<span class="b-tree__spacer"><span class="b-tree__i_angle_tl"><span class="b-tree__i_angle_tl_inner"></span></span><span class="b-tree__i_vLine_tb"><span class="b-tree__i_vLine_tb_inner"></span></span><span class="b-tree__i_expander_doClose"><img class="b-tree__i_expander_doClose_inner" alt="-" title="" src="i/null.gif" /></span></span>',
-        html_render_folder_expander_doclose_cached: '<span class="b-tree__spacer"><span class="b-tree__i_expander_doClose"><img class="b-tree__i_expander_doClose_inner" alt="-" title="" src="i/null.gif" /></span></span>',
-        
-        initialize: function( options ) {
-            this.isRoot = options.isRoot;
-            this.isFolder = this.model.hasChilds();
-            this.isArticle = !this.isFolder;
-        },
-        render: function(currModel, isRoot) {
-            this.model = currModel;
-            
-            this.isRoot = isRoot;
-            this.isFolder = this.model.hasChilds();
-            this.isArticle = !this.isFolder;
-            
-            if ( this.isRoot ) {
-                if ( this.isFolder ) {
-                    $output = this.renderFolder();
-                }
-                else {
-                    $output = this.renderArticle();
-                }
-            }
-            else {
-                $output = this.renderChilds();
-            }
-
-            return $output;
-        },
-
-        renderFolder: function() {
-            if (!this.model.hasParent() && (DR_EXPLAIN.data_menu.DREX_HAS_ROOT_NODE || DR_EXPLAIN.data_menu.DREX_MENU_TYPE == 1))
-                return this.renderFolderIcon();
-            return this.renderFolderExpander() + ( this.renderFolderIcon() );
-        },
-
-        renderFolderExpander: function() {
-            var isAngleTL = ( !this.model.hasPrevItem() && !this.model.hasParent() && this.model.hasNextItem() );
-            var isHLine = ( !this.model.hasPrevItem() && !this.model.hasParent() && !this.model.hasNextItem() );
-            var isAngleBL = ( !this.model.hasNextItem() );
-
-            if ( isAngleTL ) {
-                return ( this.html_render_folder_expander_angle_tl_cached )
-            }
-            else if ( isHLine ) {
-                return ( this.html_render_folder_expander_hline_mr_cached );
-            }
-            else if ( isAngleBL ) {
-                return ( this.html_render_folder_expander_angle_bl_cached );
-            }
-            else {
-                return ( this.html_render_folder_expander_angle_tl_tb_cached );
-            }
-            return ( this.html_render_folder_expander_doclose_cached )
-        },
-
-        renderFolderIcon: function() {
-            return ( this.html_folder_icon_cached );
-        },
-
-        renderArticle: function() {
-            if (!this.model.hasParent() && (DR_EXPLAIN.data_menu.DREX_HAS_ROOT_NODE || DR_EXPLAIN.data_menu.DREX_MENU_TYPE == 1))
-                return this.renderArticleIcon();
-            return this.renderArticleLine() + ( this.renderArticleIcon() );
-        },
-
-        renderArticleLine: function() {
-            var isAngleTL = ( !this.model.hasPrevItem() && !this.model.hasParent() );
-            var isAngleBL = ( !this.model.hasNextItem() );
-
-            if ( isAngleBL ) {
-                return ( this.html_render_article_line_bl_cached );
-            }
-            else if ( isAngleTL ) {
-                return ( this.html_render_article_line_tl_cached );
-            }
-            else {
-                return ( this.html_render_article_line_tl_tb_cached );
-            }
-            return ( this.html_root );
-        },
-        
-        renderArticleIcon: function() {
-            return ( this.html_article_icon_cached );
-        },
-        
-
-        renderChilds: function( ) {
-            if ((DR_EXPLAIN.data_menu.DREX_HAS_ROOT_NODE || DR_EXPLAIN.data_menu.DREX_MENU_TYPE == 1) && !this.model.hasParent())
-                return ('');
-                
-            var isVLineTB = ( this.model.hasNextItem() );
-
-            if ( isVLineTB ) {
-                return ( this.html_render_childs_isVLineTB_cached );
-            }
-
-            return ( this.html_root );
-        }
-    }
-
-
     window.NavTree__ItemDecoration_Keyword_View =
     Backbone.View.extend({
         tagName: "span",
@@ -665,48 +538,6 @@ DR_EXPLAIN.namespace = function( ns_string ) {
         },
 
 
-        hideExpander: function(e) {
-            this.$el.children( "ul" ).hide();
-
-            var $content = this.$el.children( "div" );
-
-            var $expander = $content.find( ".b-tree__i_expander_doClose" );
-            var $folder = $content.find( ".b-tree__i_folder_opened" );
-            var $vLine = $content.find( ".b-tree__i_vLine_b_folder_opened" );
-
-            this.toggleClasses( $expander, $folder, $vLine );
-            $expander.children( "img" ).prop( "alt", "+" );
-
-
-            this.model.set({ "isVisible": 0 });
-        },
-
-        showExpander: function(e) {
-            this.$el.children( "ul" ).show();
-
-            var $content = this.$el.children( "div" );
-
-            var $expander = $content.find( ".b-tree__i_expander_doOpen" );
-            var $folder = $content.find( ".b-tree__i_folder_closed" );
-            var $vLine = $content.find( ".b-tree__i_vLine_b_folder_closed" );
-
-            this.toggleClasses( $expander, $folder, $vLine );
-            $expander.children( "img" ).prop( "alt", "" );
-
-            this.model.set({ "isVisible": 1 });
-        },
-
-        toggleClasses: function( $expander, $folder, $vLine ) {
-            $expander.toggleClass( "b-tree__i_expander_doClose b-tree__i_expander_doOpen" );
-            $expander.children( "img" ).toggleClass( "b-tree__i_expander_doClose_inner b-tree__i_expander_doOpen_inner" );
-
-            $folder.toggleClass( "b-tree__i_folder_opened b-tree__i_folder_closed" );
-            $folder.children( "span" ).toggleClass( "b-tree__i_folder_opened_inner b-tree__i_folder_closed_inner" );
-
-            $vLine.toggleClass( "b-tree__i_vLine_b_folder_opened b-tree__i_vLine_b_folder_closed" );
-            $vLine.children( "span" ).toggleClass( "b-tree__i_vLine_b_folder_opened_inner b-tree__i_vLine_b_folder_closed_inner" );
-        },
-
         render: function( childsOutput ) {
             var tpl = '<div class="b-tree__itemContent" title="<%- title %>"><span class="b-tree__itemText"><a href="<%- link %>" class="b-tree__itemLink"><%- title %></a></span></div>';
             var tplSelected = '<div class="b-tree__itemContent m-tree__itemContent__selected" title="<%- title %>"><span class="b-tree__itemText m-tree__itemText__selected"><%- title %></span></div>';
@@ -719,72 +550,10 @@ DR_EXPLAIN.namespace = function( ns_string ) {
 
             $(this.el).html(this.template(this.model.toJSON()));
             
-            if ( childsOutput !== null ) {
-                $( this.el ).append( $( childsOutput ) );
-                this.bindEvents();
-            }
             var decoration = this.getDecoration( );
             $( this.el ).children( ".b-tree__itemContent" ).prepend( decoration );
             
-            if ( !this.model.get( "isVisible" ) ) {
-                this.hideExpander();
-            }
-
             return this;
-        },
-
-        bindEvents: function() {
-            var that = this;
-
-            this.$el.children( "div" ).on( "click", ".b-tree__i_expander_doClose", function(e){
-                that.hideExpander(e);
-            });
-
-            this.$el.children( "div" ).on( "click", ".b-tree__i_expander_doOpen", function(e){
-                that.showExpander(e);
-            });
-        },
-
-        getDecoration: function(bVisible) {
-            var $output = null;
-
-            var currModel = this.model;
-            var isRoot = true;
-            do {
-                if ( $output === null ) {
-                    $output = NavTree__ItemDecoration_View.render(currModel, isRoot);
-                }
-                else {
-                    $output = ( NavTree__ItemDecoration_View.render(currModel, isRoot) ) + ( $output );
-                }
-                currModel = currModel.get( "parent" );
-                isRoot = false;
-            
-            } while ( currModel !== null );
-            if (typeof bVisible !== "undefined")
-            {
-                if (!bVisible)
-                {
-                    $output = $output.replace("b-tree__i_expander_doClose", "b-tree__i_expander_doOpen");
-                    $output = $output.replace("b-tree__i_expander_doClose_inner", "b-tree__i_expander_doOpen_inner");
-                    $output = $output.replace("b-tree__i_folder_opened", "b-tree__i_folder_closed");
-                    $output = $output.replace("b-tree__i_folder_opened_inner", "b-tree__i_folder_closed_inner");
-                    $output = $output.replace("b-tree__i_vLine_b_folder_opened", "b-tree__i_vLine_b_folder_closed");
-                    $output = $output.replace("b-tree__i_vLine_b_folder_opened_inner", "b-tree__i_vLine_b_folder_closed_inner");
-                    $output = $output.replace("alt=\"+\"", "alt=\"-\"");
-                }
-                else
-                {
-                    $output = $output.replace("b-tree__i_expander_doOpen", "b-tree__i_expander_doClose");
-                    $output = $output.replace("b-tree__i_expander_doOpen_inner", "b-tree__i_expander_doClose_inner");
-                    $output = $output.replace("b-tree__i_folder_closed", "b-tree__i_folder_opened");
-                    $output = $output.replace("b-tree__i_folder_closed_inner", "b-tree__i_folder_opened_inner");
-                    $output = $output.replace("b-tree__i_vLine_b_folder_closed", "b-tree__i_vLine_b_folder_opened");
-                    $output = $output.replace("b-tree__i_vLine_b_folder_closed_inner", "b-tree__i_vLine_b_folder_opened_inner");
-                    $output = $output.replace("alt=\"-\"", "alt=\"+\"");
-                }               
-            }
-            return $( $output );
         }
     });
 
@@ -978,24 +747,26 @@ DR_EXPLAIN.namespace = function( ns_string ) {
             var elHtml = '';
             if ( this.model.get( "isSelected" ) )
             {
-                var jEl = $(this.el);
-                var div = $(document.createElement("div"));
-                div.attr("class", "b-tree__itemContent m-tree__itemContent__selected");
-                div.attr("title", title);
-                div.append(decoration);
-                var span = $(document.createElement("span"));
-                span.attr("class", "b-tree__itemText m-tree__itemText__selected");
-                span.append(document.createTextNode(title));
-                div.append(span);
-                jEl.append(div);
+                var div = document.createElement("div");
+                div.className = "b-tree__itemContent m-tree__itemContent__selected";
+                div.title = title;
+                for (var i = 0; i < decoration.length; ++i)
+                  div.appendChild(decoration[i]);
+                
+                var span = document.createElement("span");
+                span.className = "b-tree__itemText m-tree__itemText__selected";
+                span.appendChild(document.createTextNode(title));
+                div.appendChild(span);
+                this.el.appendChild(div);
             }
             else
             {
-                var jEl = this.el;
                 var div = document.createElement("div");
                 div.className = "b-tree__itemContent";
                 div.title = title;
-                $(div).append(decoration);
+                for (var i = 0; i < decoration.length; ++i)
+                  div.appendChild(decoration[i]);
+
                 var span = document.createElement("span");
                 span.className = "b-tree__itemText";
                 var aEl = document.createElement("a");
@@ -1004,7 +775,7 @@ DR_EXPLAIN.namespace = function( ns_string ) {
                 aEl.appendChild(document.createTextNode(title));
                 span.appendChild(aEl);
                 div.appendChild(span);
-                jEl.appendChild(div);
+                this.el.appendChild(div);
             }
 
             
@@ -1371,10 +1142,10 @@ InputSync.prototype ={
 DR_EXPLAIN.namespace( 'DR_EXPLAIN.data_menu' );
 DR_EXPLAIN.data_menu = {
     // menu
-    DREX_NODE_NAMES: ["Acoustic guitar tabs by Toma","1. Bulgarian songs","2. English songs - pre 90s","3. English songs - post 90s","4. Spanish songs","5. Bulgarian Folk","6. Bulgarian Vulgar Drunk Songs","1.1. Щурците – Среща","1.2. Щурците – Хамлет","1.3. Щурците – Клетва","1.4. Диана Експрес – Сутрин","1.5. Диана Експрес – Синева","1.6. Диана Експрес – Душа","1.7. Тоника – Приятели","1.8. Хиподил – Бате Гойко","1.9. Васил Найденов – По Първи петли","2.1. Lionel Richie - Hello","2.2. Elvis – Are You Lonesome Tonight","2.3. Elvis - Fool such as I ","2.4. Elvis - His Latest Flame","2.5. The Pogues – Dirty Old Town","2.6. The Toyes – Smoke 2 Joints","2.7. Frank Sinatra – My Way","2.8. Frank Sinatra – Strangers in the night","2.9. The Beatles – Something in the way she moves","2.10. The Beatles – Michelle","2.11. Willie Nelson - Golden Earrings","2.12. Jimmy Sommerville - To Love Somebody","3.1. Paul McCartney – Hope Of Deliverance","3.2. Calum Scott - Dancing on my own","4.1. Manu Chao – Me Llaman Calle","4.2. Manu Chao – La vida tombola","4.3. Manu Chao – Clandestino","4.4. Manu Chao – Libertad","5.1. Кога зашумят шумите","6.1. Киора – Вкарвам го в теб","6.2. Мони и Домчил – Уморени мъда","6.3. БТР – Мас и масло","6.4. БТР – Спасение"],
-    DREX_NODE_LINKS: ["index.htm","module_2.htm","module_3.htm","module_4.htm","module_5.htm","module_6.htm","module_7.htm","module_2_1.htm","module_2_2.htm","module_2_3.htm","module_2_4.htm","module_2_5.htm","module_2_6.htm","module_2_7.htm","module_2_8.htm","module_2_9.htm","module_3_1.htm","module_3_2.htm","module_3_3.htm","module_3_4.htm","module_3_5.htm","module_3_6.htm","module_3_7.htm","module_3_8.htm","module_3_9.htm","module_3_10.htm","module_3_11.htm","module_3_12.htm","module_4_1.htm","module_4_2.htm","module_5_1.htm","module_5_2.htm","module_5_3.htm","module_5_4.htm","module_6_1.htm","module_7_1.htm","module_7_2.htm","module_7_3.htm","module_7_4.htm"],
-    DREX_NODE_CHILD_START: [1,7,16,28,30,34,35,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39],
-    DREX_NODE_CHILD_END: [7,16,28,30,34,35,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39],
+    DREX_NODE_NAMES: ["Acoustic guitar tabs by Toma","1. Bulgarian songs","2. English songs - pre 90s","3. English songs - 90s and later","4. Spanish songs","5. Bulgarian Folk","6. Bulgarian Vulgar Drunk Songs","1.1. Щурците – Среща","1.2. Щурците – Хамлет","1.3. Щурците – Клетва","1.4. Диана Експрес – Сутрин","1.5. Диана Експрес – Синева","1.6. Диана Експрес – Душа","1.7. Тоника – Приятели","1.8. Хиподил – Бате Гойко","1.9. Васил Найденов – По Първи петли","2.1. Lionel Richie - Hello","2.2. Elvis – Are You Lonesome Tonight","2.3. Elvis - Fool such as I ","2.4. Elvis - His Latest Flame","2.5. The Pogues – Dirty Old Town","2.6. The Toyes – Smoke 2 Joints","2.7. Frank Sinatra – My Way","2.8. Frank Sinatra – Strangers in the night","2.9. The Beatles – Something in the way she moves","2.10. The Beatles – Michelle","2.11. Willie Nelson - Golden Earrings","2.12. Jimmy Sommerville - To Love Somebody","2.13. Jackson 5 - Who\'s loving you","3.1. Paul McCartney – Hope Of Deliverance","3.2. Calum Scott - Dancing on my own","3.3. Prince – Nothing compares 2 you","3.4. Morphine - The Saddest song","4.1. Manu Chao – Me Llaman Calle","4.2. Manu Chao – La vida tombola","4.3. Manu Chao – Clandestino","4.4. Manu Chao – Libertad","5.1. Кога зашумят шумите","6.1. Киора – Вкарвам го в теб","6.2. Мони и Домчил – Уморени мъда","6.3. БТР – Мас и масло","6.4. БТР – Спасение"],
+    DREX_NODE_LINKS: ["index.htm","module_2.htm","module_3.htm","module_4.htm","module_5.htm","module_6.htm","module_7.htm","module_2_1.htm","module_2_2.htm","module_2_3.htm","module_2_4.htm","module_2_5.htm","module_2_6.htm","module_2_7.htm","module_2_8.htm","module_2_9.htm","module_3_1.htm","module_3_2.htm","module_3_3.htm","module_3_4.htm","module_3_5.htm","module_3_6.htm","module_3_7.htm","module_3_8.htm","module_3_9.htm","module_3_10.htm","module_3_11.htm","module_3_12.htm","module_3_13.htm","module_4_1.htm","module_4_2.htm","module_4_3.htm","module_4_4.htm","module_5_1.htm","module_5_2.htm","module_5_3.htm","module_5_4.htm","module_6_1.htm","module_7_1.htm","module_7_2.htm","module_7_3.htm","module_7_4.htm"],
+    DREX_NODE_CHILD_START: [1,7,16,29,33,37,38,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42],
+    DREX_NODE_CHILD_END: [7,16,29,33,37,38,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42],
     DREX_MENU_TYPE: 2,
     DREX_HAS_ROOT_NODE: 0};
 

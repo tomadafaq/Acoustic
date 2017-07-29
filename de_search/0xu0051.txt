@@ -1,8 +1,8 @@
 QUE
- 30,29
+ 33,32
 QUI
  22
 QUIEBRA
- 31
+ 34
 QUIERO
- 32
+ 35
