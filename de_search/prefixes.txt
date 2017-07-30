@@ -3,7 +3,7 @@
  011200
 0xu0031
  1
- 12
+ 13
 0xu0032
  2
  2X
@@ -51,12 +51,12 @@
  GYPSY
 0xu0048
  HAD
- HOW
+ HUMMIN
 0xu0049
  I
  IT'S
 0xu004a
- JIMMY
+ JACKSON
  JUST
 0xu004b
  KEEP
@@ -75,7 +75,7 @@
  OГА
 0xu0050
  PA
- PUERTA
+ PUT
 0xu0051
  QUE
  QUIERO
@@ -96,7 +96,7 @@
  VULGAR
 0xu0057
  WALL
- WOULDN'T
+ WRONG
 0xu0058
  X2
  X332X3
@@ -171,7 +171,7 @@
  ХОРМОНИТЕ
 0xu0426
  ЦВЕТЕ
- ЦЕЛУВАМ
+ ЦИГАНИН
 0xu0427
  ЧАК
  ЧУЙТЕ

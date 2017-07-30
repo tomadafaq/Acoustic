@@ -71,47 +71,56 @@
  2.12. Jimmy Sommerville - To Love Somebody
  module_3_12.htm
 25
- 3. English songs - post 90s
- module_4.htm
+ 2.13. Jackson 5 - Who's loving you
+ module_3_13.htm
 26
+ 3. English songs - 90s and later
+ module_4.htm
+27
  3.1. Paul McCartney – Hope Of Deliverance
  module_4_1.htm
-27
+28
  3.2. Calum Scott - Dancing on my own
  module_4_2.htm
-28
+29
+ 3.3. Prince – Nothing compares 2 you
+ module_4_3.htm
+30
+ 3.4. Morphine - The Saddest song
+ module_4_4.htm
+31
  4. Spanish songs
  module_5.htm
-29
+32
  4.1. Manu Chao – Me Llaman Calle
  module_5_1.htm
-30
+33
  4.2. Manu Chao – La vida tombola
  module_5_2.htm
-31
+34
  4.3. Manu Chao – Clandestino
  module_5_3.htm
-32
+35
  4.4. Manu Chao – Libertad
  module_5_4.htm
-33
+36
  5. Bulgarian Folk
  module_6.htm
-34
+37
  5.1. Кога зашумят шумите
  module_6_1.htm
-35
+38
  6. Bulgarian Vulgar Drunk Songs
  module_7.htm
-36
+39
  6.1. Киора – Вкарвам го в теб
  module_7_1.htm
-37
+40
  6.2. Мони и Домчил – Уморени мъда
  module_7_2.htm
-38
+41
  6.3. БТР – Мас и масло
  module_7_3.htm
-39
+42
  6.4. БТР – Спасение
  module_7_4.htm
