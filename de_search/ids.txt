@@ -29,98 +29,101 @@
  1.8. Хиподил – Бате Гойко
  module_2_8.htm
 11
- 1.9. Васил Найденов – По Първи петли
+ 1.9. Васил Найденов – По първи петли
  module_2_9.htm
 12
+ 1.10. Милена - Истина
+ module_2_10.htm
+13
  2. English songs - pre 90s
  module_3.htm
-13
+14
  2.1. Lionel Richie - Hello
  module_3_1.htm
-14
+15
  2.2. Elvis – Are You Lonesome Tonight
  module_3_2.htm
-15
+16
  2.3. Elvis - Fool such as I 
  module_3_3.htm
-16
+17
  2.4. Elvis - His Latest Flame
  module_3_4.htm
-17
+18
  2.5. The Pogues – Dirty Old Town
  module_3_5.htm
-18
+19
  2.6. The Toyes – Smoke 2 Joints
  module_3_6.htm
-19
+20
  2.7. Frank Sinatra – My Way
  module_3_7.htm
-20
+21
  2.8. Frank Sinatra – Strangers in the night
  module_3_8.htm
-21
+22
  2.9. The Beatles – Something in the way she moves
  module_3_9.htm
-22
+23
  2.10. The Beatles – Michelle
  module_3_10.htm
-23
+24
  2.11. Willie Nelson - Golden Earrings
  module_3_11.htm
-24
+25
  2.12. Jimmy Sommerville - To Love Somebody
  module_3_12.htm
-25
+26
  2.13. Jackson 5 - Who's loving you
  module_3_13.htm
-26
+27
  3. English songs - 90s and later
  module_4.htm
-27
+28
  3.1. Paul McCartney – Hope Of Deliverance
  module_4_1.htm
-28
+29
  3.2. Calum Scott - Dancing on my own
  module_4_2.htm
-29
+30
  3.3. Prince – Nothing compares 2 you
  module_4_3.htm
-30
+31
  3.4. Morphine - The Saddest song
  module_4_4.htm
-31
+32
  4. Spanish songs
  module_5.htm
-32
+33
  4.1. Manu Chao – Me Llaman Calle
  module_5_1.htm
-33
+34
  4.2. Manu Chao – La vida tombola
  module_5_2.htm
-34
+35
  4.3. Manu Chao – Clandestino
  module_5_3.htm
-35
+36
  4.4. Manu Chao – Libertad
  module_5_4.htm
-36
+37
  5. Bulgarian Folk
  module_6.htm
-37
+38
  5.1. Кога зашумят шумите
  module_6_1.htm
-38
+39
  6. Bulgarian Vulgar Drunk Songs
  module_7.htm
-39
+40
  6.1. Киора – Вкарвам го в теб
  module_7_1.htm
-40
+41
  6.2. Мони и Домчил – Уморени мъда
  module_7_2.htm
-41
+42
  6.3. БТР – Мас и масло
  module_7_3.htm
-42
+43
  6.4. БТР – Спасение
  module_7_4.htm
