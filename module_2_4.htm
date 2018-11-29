@@ -262,18 +262,28 @@
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
                 <div class="description_on_page"><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>1.4. Диана Експрес – Сутрин</strong></h1></div></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><button class="New_normal" onclick="hideTabs()">Hide tabs</button>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><button onclick="hideTabs()" class="toggleTabs">Toggle tabs</button>
 <script>
 function hideTabs() {
-    var x = document.getElementsByClassName("New_normal");
-    var i;
-      
-    for (i = 0; i < x.length; i++) {
-    	 x[i].style.display = "none"; 
-         }
+    var x = document.getElementsByClassName("New_normal"), i;
+	for (i = 0; i < x.length; i++) {
+		if (x[i].style.display === "none") {
+			x[i].style.display = "block";
+		} 
+		else {
+			x[i].style.display = "none";
+		}
+	}
 }
-</script>
-</div>
+</script></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="quote">Акорди:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="code">D &#160; A &#160; Bm&#160; |&#160; D&#160; A&#160; G&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="code">F#m&#160; E&#160; D&#160; |&#160; D-A-Bm&#160; &#160; F#m&#160; C# </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="quote">Припев:</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="code">F#m&#160; Bm&#160; E&#160; A&#160; C# </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="code">F#m&#160; Bm&#160; E&#160; A&#160; Bm&#160; C#&#160; F#m&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">D               A                 Bm</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">Свети над нас нова нощта –</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">D              A                   G</span></div>
@@ -288,8 +298,8 @@ function hideTabs() {
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">D           A                 G </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">с нови очи, с ново лице,</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">F#m           E  &#160;              D  D-A-Bm</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">с нова мечта, с нова надежда,</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">Bm &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; F#m &#160; C#</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">с нова мечта, с нова надежда,</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="New_normal">Bm &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; F#m &#160; C#</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_5D25B0B4EF">с нова любов, с ново сърце!</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><hr style="width: 100%; height: 1px; text-align: left; margin-left: 0; margin-right: auto; border:none; background-color:#bfbfbf; color: #bfbfbf; clear:none;" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="quote">Припев:</span></div>
@@ -320,10 +330,25 @@ function hideTabs() {
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_5D25B0B4EF">с нова любов, с ново сърце!</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><hr style="width: 100%; height: 1px; text-align: left; margin-left: 0; margin-right: auto; border:none; background-color:#bfbfbf; color: #bfbfbf; clear:none;" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="quote">Припев:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">F#m</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">Сутрин - светлосиня,</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">Bm</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">сутрин - детски чиста,</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">E</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">сутрин ще ни срещне</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">A               C#</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">със теб живот!</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">F#m</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">Сутрин - пълна с нежност,</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">Bm</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">сутрин - пълна с вяра,</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">E</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">сутрин - пълна с обич,</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">A                  Bm          C#        F#m</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">свети с безброй, с безброй лица!</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="quote">модулация</span><span class="de_5D25B0B4EF">: </span><span class="New_normal">Am - Gm</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="quote">Припев:</span><span class="de_56E0215132"> </span><span class="New_normal">Gm&#160; Cm&#160; Fm&#160; Bb | Gm&#160; Cm&#160; Fm&#160; Bb&#160; Cm&#160; Gm&#160; D</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="quote">модулация</span><span class="de_5D25B0B4EF">: </span><span class="code">Am - Gm</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="quote">Припев:</span><span class="de_56E0215132"> </span><span class="code">Gm&#160; Cm&#160; Fm&#160; Bb | Gm&#160; Cm&#160; Fm&#160; Bb&#160; Cm&#160; Gm&#160; D</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>

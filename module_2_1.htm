@@ -262,18 +262,21 @@
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
                 <div class="description_on_page"><div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><div class="ic"><h1><strong>1.1. Щурците – Среща</strong></h1></div></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><button class="New_normal" onclick="hideTabs()">Hide tabs</button>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><button onclick="hideTabs()" class="toggleTabs">Toggle tabs</button>
 <script>
 function hideTabs() {
-    var x = document.getElementsByClassName("New_normal");
-    var i;
-      
-    for (i = 0; i < x.length; i++) {
-    	 x[i].style.display = "none"; 
-         }
+    var x = document.getElementsByClassName("New_normal"), i;
+	for (i = 0; i < x.length; i++) {
+		if (x[i].style.display === "none") {
+			x[i].style.display = "block";
+		} 
+		else {
+			x[i].style.display = "none";
+		}
+	}
 }
-</script>
-</div>
+</script></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">Dm             Gm</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">Дали аз закъснях</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">                     Dm</span></div>
@@ -288,7 +291,7 @@ function hideTabs() {
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">каквото ни свързваше</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">     &#160; A#             A           Dm</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">Отшумя като празничен звън</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><hr style="width: 100%; height: 1px; text-align: left; margin-left: 0; margin-right: auto; border:none; background-color:#bfbfbf; color: #bfbfbf; clear:none;" /><span class="de_5D25B0B4EF"> </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><hr style="width: 100%; height: 1px; text-align: left; margin-left: 0; margin-right: auto; border:none; background-color:#bfbfbf; color: #bfbfbf; clear:none;" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_D346FBB7A4">Припев:</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">     A#               Am</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="de_5D25B0B4EF">Край реката редят се</span></div>

@@ -262,28 +262,31 @@
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
                 <div class="description_on_page"><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>1.3. Щурците – Клетва</strong></h1></div></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><button class="New_normal" onclick="hideTabs()">Hide tabs</button>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><button onclick="hideTabs()" class="toggleTabs">Toggle tabs</button>
 <script>
 function hideTabs() {
-    var x = document.getElementsByClassName("New_normal");
-    var i;
-      
-    for (i = 0; i < x.length; i++) {
-    	 x[i].style.display = "none"; 
-         }
+    var x = document.getElementsByClassName("New_normal"), i;
+	for (i = 0; i < x.length; i++) {
+		if (x[i].style.display === "none") {
+			x[i].style.display = "block";
+		} 
+		else {
+			x[i].style.display = "none";
+		}
+	}
 }
-</script>
-</div>
+</script></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="quote">Интро:</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="New_normal">D &#160; Am &#160; &#160; &#160; &#160; G&#160; Em</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160; &#160; &#160; |</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">D &#160; Am - G&#160; Em &#160; &#160; <span class="New_normal">&#160; </span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><br /><strong>Am (разложен):</strong></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">E-------------------------</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">A-------------------------</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">D--2----------------------</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">G---2---------------------</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">B----1~5~3---------------</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">e-------------------------</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Интрото рифа се свири през двата куплета. Навсякъде </span><span class="New_normal">Am</span><span class="de_823826CA2C"> е разложен, както е посочено.</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_823826CA2C">Интро рифа се свири през двата куплета. Навсякъде </span>Am<span class="de_823826CA2C"> е разложен, както е посочено.</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">  D         Am      G           Em</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">Кълна се, никога да не</div>
@@ -292,8 +295,7 @@ function hideTabs() {
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">  D    Am   G</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">с когото пет години</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">  Em                D     Am   G G7</span></div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">всичко съм делил.</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"> </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">всичко съм делил. <hr style="width: 100%; height: 1px; text-align: left; margin-left: 0; margin-right: auto; border:none; background-color:#bfbfbf; color: #bfbfbf; clear:none;" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"> <span class="New_normal">   F             Cm</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">Кълна се, попадне ли</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">        F             A#    A#maj7    Gm    A</span></div>
@@ -302,8 +304,7 @@ function hideTabs() {
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">да му подам ръка (2x)</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">       Bm                G     A</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">и в лош за мене час (2x)</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><hr style="width: 100%; height: 1px; text-align: left; margin-left: 0; margin-right: auto; border:none; background-color:#bfbfbf; color: #bfbfbf; clear:none;" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">  D             Am            </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">Кълна се,</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">  G</span></div>
@@ -314,18 +315,18 @@ function hideTabs() {
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">приятелските грешки</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">         D            Am   G G7</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">да прощавам.</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"> </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><hr style="width: 100%; height: 1px; text-align: left; margin-left: 0; margin-right: auto; border:none; background-color:#bfbfbf; color: #bfbfbf; clear:none;" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">     F                   Cm</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">Кълна се във Дявола</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">      F</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">и в Бога</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">      <span class="New_normal">A#     </span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">да сторя аз за теб</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">    A#maj7 Gm   A</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">    A#maj7&#160; &#160; &#160; Gm   A</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">каквото      мога</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;"><span class="New_normal">      D       Bm   G   A</span></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: -6px; text-indent: 0px;">Заклех се! (4x)</div>
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span class="de_2641A9D524">---</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 </div>                                    			
                 			
             </div><!-- /innerWrapper -->
