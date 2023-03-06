@@ -63,7 +63,6 @@ de_search\0xu0033.json
 de_search\0xu0032.json
 de_search\0xu0031.json
 de_search\0xu0030.json
-de_search
 js\drexplain.data.index.js
 de_style.css
 css\printed.css
@@ -83,18 +82,12 @@ i\blocks\search\loading.gif
 i\blocks\interface-icons\interface-icons-sprite.png
 i\blocks\interface-icons\interface-icons-sprite-8.png
 i\null.gif
-i\blocks\work-zone
-i\blocks\tree
-i\blocks\splitter
-i\blocks\search
-i\blocks\interface-icons
-i\blocks
-i
 module_7_4.htm
 module_7_3.htm
 module_7_2.htm
 module_7_1.htm
 module_7.htm
+module_6_2.htm
 module_6_1.htm
 module_6.htm
 module_5_4.htm
@@ -109,6 +102,11 @@ module_4_3.htm
 module_4_2.htm
 module_4_1.htm
 module_4.htm
+module_3_21.htm
+module_3_20.htm
+module_3_19.htm
+module_3_18.htm
+module_3_17.htm
 module_3_16.htm
 module_3_15.htm
 module_3_14.htm
@@ -139,6 +137,4 @@ module_2_2.htm
 module_2_1.htm
 module_2.htm
 index.htm
-css
-js
 drex_file_list
