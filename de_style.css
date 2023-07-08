@@ -78,6 +78,10 @@ font-style:normal;
 text-decoration:none;
 font-weight:normal;
 }
+span.de_1DB3EDAFDB
+{
+	text-decoration:none;
+}
 span.de_2471C8BA66
 {
 	color:#007fbf;
@@ -176,12 +180,6 @@ span.de_F5BE6575F8
 	font-family: "Verdana";
 	font-size: 12pt;
 	color:#00b050;
-}
-span.de_F6FDE9E033
-{
-	font-family: "Verdana";
-	font-size: 10pt;
-	color:#999999;
 }
 .list-element {
 	list-style-type: none;
